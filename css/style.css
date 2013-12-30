@@ -112,8 +112,93 @@ ul.nav li a {
 
 
 
+/*Media Queries*/
+
+/*super Small*/
+
+@media screen and (max-width: 612px) {
+
+  .grid_1,
+  .grid_2,
+  .grid_3,
+  .grid_4,
+  .grid_5,
+  .grid_6,
+  .grid_7,
+  .grid_8,
+  .grid_9,
+  .grid_10,
+  .grid_11,
+  .grid_12 {
+    width: 100%;
+  }
+
+  #first_slug {
+    float: right;
+  }
+
+  #second_slug {
+    display: none;
+  }
+
+#links ul {
+  margin: 5% 0;
+  float: center;
+}
+
+#links ul li a {
+  -webkit-user-select: none;
+}
+
+#links ul li {
+  float: left;
+  margin: 5% 0;
+  }
+
+#links ul  li.about {
+    width: 100%;
+    text-align: center;
+}
+
+#links ul  li.portfolio {
+    width: 100%;
+    text-align: center;
+}
+
+#links ul  li.contact {
+    width: 100%;
+    text-align: center;
+}
+
+}
 
 
+/*Smaller Size*/
+@media screen and (max-width: 950px) {
 
+.grid_1,
+  .grid_2,
+  .grid_3,
+  .grid_4,
+  .grid_5,
+  .grid_6,
+  .grid_7,
+  .grid_8,
+  .grid_9,
+  .grid_10,
+  .grid_11,
+  .grid_12 {
+    width: 100%;
+  }
 
+#second_slug {
+    display: none;
+}
+  
+}
 
+/*large*/
+@media screen and (max-width: 1024px) {
+
+  
+}
