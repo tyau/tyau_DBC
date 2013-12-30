@@ -24,12 +24,16 @@ h2 {
   color: #B4C34F;
 }
 
+img {
+  max-width: 100%;
+}
+
 .btn {
   color: #FAF3BC;
   background: #3FA68F /*url('img/texture.png')*/ no-repeat right top;
-  padding: 15px 30px;
-  margin: 40px 0px;
-  border-radius: 25px;
+  padding: 0.9375em 1.875em; /*15px 30px*/
+  margin: 2.5em 0em; /*40px 0px*/
+  border-radius: 1.5625em; /*25px*/
   text-transform: uppercase;
 }
 
@@ -38,49 +42,50 @@ h2 {
 }
 
 ul.nav {
-  margin: 120px 0 0 0;
+  max-width: 100%;
+  margin: 7.5em 0em 0em 0em; /* 120px 0 0 0*/
   list-style: none;
   float: right;
 }
 
 ul.nav li {
   float: left;
-  margin-right: 40px;
+  margin-right: 2.5em; /*40px*/
 }
 
 ul.nav li a {
   color: #8888FF;
   background: #FAF3BC;
-  padding: 15px 30px;
-  margin: 40px 0px;
-  border-radius: 25px;
-  text-shadow: 0px 0px 0px #8888FF;
+  padding: 0.9375em 1.875em; /*15px 30px*/
+  margin: 2.5em 0em; /*40px 0*/
+  border-radius: 1.5625em; /*25px*/
+  text-shadow: 0em 0em 0em #8888FF; /*0 0 0*/
 }
 
 #intro {
-  margin: 50px 0 75px 0;
+  margin: 3.125em 0em 4.6875em 0em; /*50px 0 75px 0*/
 }
 
 #new-cupcakes img {
-  border: 8px solid #FAF3BC;
+  border: 0.5em solid #FAF3BC; /*8px*/
   margin: 0 0 20px 0;
 }
 
 #about img {
-  border: 8px solid #FAF3BC;
+  border: 0.5em solid #FAF3BC; /*8px*/
 }
 
 #quirk img {
-  border: 8px solid #FAF3BC;
+  border: 0.5em solid #FAF3BC; /*8px*/
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 #copyright {
-  border: 8px double #CCCCCC;
-  padding: 10px 0px;
-  margin: 15px 0px;
+  border: 0.5em double #CCCCCC; /*8px*/
+  padding: 0.625em 0em; /*10px 0*/
+  margin: 0.9375em 0em; /*15px 0*/
   text-align: center;
   text-shadow:
     -1px -1px 0 #000,
